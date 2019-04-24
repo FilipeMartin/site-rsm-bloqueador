@@ -1,0 +1,85 @@
+.ac_main_box .register {
+	margin-bottom: 10px;
+	border: solid 1px #303F9F;
+	border-radius: 4px;
+}
+
+.ac_main_box .register .title {
+	background: #303F9F url('../images/img_seta.png');
+	background-repeat: no-repeat;
+	background-position: 2% 50%;
+	background-size: 16px;
+	padding: 12px;
+	padding-left: 40px;
+}
+
+.ac_main_box .register .title h1 {
+	color: #fff; 	
+	font-size: 15px;
+	font-weight: bolder;
+}
+
+.form_register_vehicle {
+	margin: 10px 18px 20px 18px;
+}
+
+.form_register_vehicle .input_line {
+	display: flex;
+}
+
+.form_register_vehicle .input_line .custom-input {
+	flex: 1;
+}
+
+.form_register_vehicle .input_imei,
+.form_register_vehicle .input_model {
+	margin-right: 18px;	
+}
+
+.form_register_vehicle .input_line option {
+	font-size: 17px;
+}
+
+.form_register_vehicle .btn_register {
+	display: flex;
+	justify-content: center;
+	margin-top: 15px;
+}
+
+.register_success {
+	display: none;
+	flex-direction: column;
+	align-items: center;
+	margin: 22px 18px;
+}
+
+.register_success h1 {
+	color: #57bd4e;
+	font-size: 25px;
+	margin: 0;
+}
+
+.register_success .itens {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	padding: 22px 35px;
+}
+
+.register_success .itens p {
+	color: #555;
+	font-size: 18px;
+	margin: 0;
+	padding-bottom: 5px;
+}
+
+.register_success .btn_platform {
+
+}
+
+.register_success .btn_prox_cadastro {
+	margin-top: 15px;
+}

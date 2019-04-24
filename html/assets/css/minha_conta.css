@@ -1,0 +1,75 @@
+.edit_my_data .form_edit_user,
+.edit_password .form_edit_password {
+	display: flex;
+	flex-direction: column;
+}
+
+.edit_my_data .btn_edit,
+.edit_password .btn_edit {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.edit_my_data .edit_success,
+.edit_password .edit_success {
+	display: none;
+} 
+
+.edit_my_data .edit_success_box,
+.edit_password .edit_success_box {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 10px;
+}
+
+.edit_my_data .edit_success_box h1,
+.edit_password .edit_success_box h1 {
+	color: #57bd4e;
+    font-size: 25px;
+    margin: 0;
+	text-transform: none;
+	margin-bottom: 45px;
+}
+
+.edit_password .box {
+	display: flex;
+}
+
+.edit_password .box .item_1 {
+    width: 270px;
+}
+
+.edit_password .box .item_2 {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+}
+
+.edit_password .password_info_box {
+	display: flex;
+	flex-direction: column;
+	background-color: #d9edf7;
+	width: 100%;
+	margin: 9px 5px 9px 30px;
+	padding: 40px 30px 40px 40px;
+	border-radius: 4px;
+	border: solid 1px #bce8f1;
+	color: #31708f;
+}
+
+.edit_password .password_info_box h1 {
+	font-size: 18px;
+	color: #31708f;
+	margin: 0;
+	margin-bottom: 10px;
+	text-transform: none;
+}
+
+.edit_password .password_info_box p {
+	font-size: 15px;
+	color: #31708f;
+	margin: 0;
+	margin: 5px 0;
+}

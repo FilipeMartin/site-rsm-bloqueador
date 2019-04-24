@@ -1,0 +1,13 @@
+.page_not_found {
+	display: flex;
+	justify-content: center;
+	background-image: url('../images/page404.png');
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: contain;
+	width: 840px;
+	height: 320px;
+	margin-top: 5px;
+	margin-left: 15px;
+	margin-right: 15px;
+} 

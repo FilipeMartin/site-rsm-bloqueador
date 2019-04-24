@@ -1,0 +1,64 @@
+.ativar_conta {
+	width: 100%;
+	margin-bottom: 105px;
+}
+
+.ativar_conta .titulo {
+	display: flex;
+	justify-content: center;
+	background-repeat: no-repeat;
+	background-position: 11% 50%;
+	background-size: 80px;
+	margin-top: 50px;
+	padding: 20px;
+	border: solid 1px #ddd;
+	border-radius: 4px;
+	box-shadow: 2px 2px 5px #555;
+}
+
+.ativar_conta .titulo h1 {
+	font-size: 28px;
+}
+
+.ativar_conta .conta_ativada {
+	background-image: url('../images/icone_confirmacao.png');
+}
+
+.ativar_conta .conta_ativada h1 {
+	color: #57BD4E;
+}
+
+.ativar_conta .token_invalido {
+	background-image: url('../images/icone_x_red.png');
+}
+
+.ativar_conta .token_invalido h1 {
+	color: #d20707;
+}
+
+.ativar_conta .acessar_conta {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+	padding: 30px 50px 50px 50px;
+	border: solid 1px #ddd;
+	border-radius: 4px;
+	box-shadow: 2px 2px 5px #555;
+}
+
+.ativar_conta .acessar_conta h1 {
+	width: 100%;
+	color: #444;
+	font-size: 26px;
+	margin: 0;
+	margin-bottom: 25px;
+	padding-bottom: 2px;
+	border-bottom: solid 1px #ccc;
+	text-align: center;
+}
+
+.ativar_conta .acessar_conta button {
+	width: 100%;
+}

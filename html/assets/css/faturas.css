@@ -1,0 +1,27 @@
+.ac_main_box .faturas {
+	margin-bottom: 35px
+}
+
+.ac_main_box .faturas .data_table {
+	display: none;
+	width: 100%;
+	text-align: center;
+	cursor: pointer;
+}
+
+.ac_main_box .faturas .loading_table {
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+}
+
+.ac_main_box .faturas .loading_table h1 {
+	background-image: url('../images/loader.gif');
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: 25px;
+	font-size: 19px;
+	color: #333;
+	margin: 0;
+	padding: 5px 0px 5px 30px;
+}

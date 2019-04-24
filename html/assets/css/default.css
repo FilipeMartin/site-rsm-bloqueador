@@ -1,0 +1,121 @@
+.btn_blue {
+	background-color: #303F9F;
+	padding: 12px 20px 12px 25px;
+	border: 0;
+	border: 1px solid #0f1e80;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	outline: none;
+	cursor: pointer;
+	transition: all 0.2s linear;
+}
+
+.btn_blue:hover {
+	background-color: #283588 !important;
+}
+
+.btn_blue:active {
+	background-color: #0f1e80 !important;
+}
+
+.btn_blue_disabled {
+	background-color: #0f1e80 !important;
+	cursor: url('../images/cursor.cur'), default;
+}
+
+.btn_green {
+	background-color: #5ab652;
+	padding: 12px 20px 12px 25px;
+	border: 0;
+	border: 1px solid #3e8838;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	outline: none;
+	cursor: pointer;
+	transition: all 0.2s linear;
+}
+
+.btn_green:hover {
+	background-color: #559a4f !important;
+}
+
+.btn_green:active {
+	background-color: #3e8838 !important;
+}
+
+.btn_green_disabled {
+	background-color: #3e8838 !important;
+	cursor: url('../images/cursor.cur'), default;
+}
+
+.msg_input_error {
+	color: #ff0000;
+	font-size: 14px;
+}
+
+.custom-input {
+  	position: relative;
+  	padding-top: 18px;
+  	margin-bottom: 9px;
+}
+
+.custom-input input {
+	width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  	padding: 11px; 
+  	border: 1px solid #ced4da;
+  	border-radius: 4px;
+  	font-size: 15px;
+  	color: #495057;
+}
+
+.custom-input label {
+	position: absolute;
+	left: 15px;
+  	top: 30px;
+  	margin: 0;
+ 	padding: 0;
+ 	cursor: text;
+  	font-size: 15px;
+  	color: #888;
+  	font-weight: normal;
+  	transition: all .2s ease;
+}
+
+.custom-input-off {
+	left: 0 !important;
+	top: 0 !important;
+	font-size: 14px !important;
+}
+
+.custom-input label.active {
+  	top: 0;
+  	left: 0;
+  	font-size: 14px;
+}
+
+.custom-input label.active.focusIn {
+  	color: #303F9F;
+}
+
+.custom-input select {
+	width: 100%;
+  	padding: 10px; 
+  	border: 1px solid #ced4da;
+  	border-radius: 4px;
+  	cursor: pointer;
+  	font-size: 15px;
+  	color: #495057;
+}
+
+.custom-input-error {
+	color: #ff0000 !important;
+	position: initial !important;
+	font-size: 14px !important;
+}

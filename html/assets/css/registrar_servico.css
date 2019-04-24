@@ -1,0 +1,690 @@
+.container_registro {
+	width: 990px;
+	display: flex;
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.registro {
+	flex: 2;
+	display: flex;
+	flex-direction: column;
+}
+
+.etapas_registro {
+	display: flex;
+	height: 75px;
+	padding-left: 28px;
+	padding-right: 28px;
+	margin-top: 5px;
+	position: sticky;
+	top: 0;
+	left: 0;
+	background-color: #fff;
+	z-index: 999;
+	box-shadow: 0px 5px 10px #fff;
+}
+
+.etapa_registro_item_1,
+.etapa_registro_item_3,
+.etapa_registro_item_5 {
+	width: 70px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.etapa_registro_item_2,
+.etapa_registro_item_4 {
+	flex: 3;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.circulo_body {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	background-color: #ccc;
+	width: 70px;
+	height: 70px;
+	border-radius: 35px;
+	overflow: hidden;
+}
+
+.circulo_externo {
+	background-color: #303F9F;
+	width: 0px;
+	height: 70px;
+	transition: all 1s linear;
+}
+
+.circulo_interno {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    background-color: #fff;
+	width: 58px;
+	height: 58px;
+	border-radius: 30px;
+	position: absolute;
+	margin-left: 6px;
+	font-size: 25px;
+	font-weight: bold;
+	color: #333;
+}
+
+.circulo_numero {
+	margin-left: 5px;
+}
+
+.circulo_img {
+	width: 40px;
+	display: none;
+}
+
+.barra_externa {
+	background-color: #ccc;
+	height: 6px;
+	flex: 1;
+}
+
+.barra_interna {
+	background-color: #303F9F;
+	height: 6px;
+	transition: all 1s linear;
+	width: 0px;
+}
+
+.desc_etapa {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 25px;
+	margin-top: 5px;
+}
+
+.desc_etapa_1,
+.desc_etapa_2,
+.desc_etapa_3 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 16px;
+	font-weight: bold;
+	color: #333;
+}
+
+.definir_cliente {
+	display: flex;
+	align-items: flex-end;
+	margin-bottom: 30px;
+}
+
+.definir_cliente_item {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #333;
+	font-size: 19px;
+	font-weight: bold;
+	height: 45px;
+	border-bottom: 3px solid #ccc;
+	transition: all 0.2s linear;
+}
+
+.definir_cliente_item:hover {
+	color: #303f9fba;
+	border-bottom: 3px solid #303f9fba;
+	cursor: pointer;
+}
+
+.definir_cliente_barra {
+	background-color: #ccc;
+    width: 2px;
+    height: 51px;
+    transform: translate(0,0px) rotate(19deg);
+    margin-left: 7px;
+    margin-right: -9px;
+}
+
+.ckeck_cliente,
+.ckeck_cliente:hover {
+	border-bottom: 3px solid #303F9F;
+	color: #303F9F;
+	cursor: unset;
+}
+
+.cadastro {
+	display: flex;
+	flex-direction: column;
+}
+
+.cadastro_item {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	margin-bottom: 20px;
+	padding: 15px 20px;
+	border-radius: 4px;
+	border: 1px solid #ced4da;
+	box-shadow: 0px 2px 10px #ced4da;
+}
+
+.cadastro_item h1 {
+	font-size: 18px;
+	color: #333;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 10px;
+}
+
+.cadastro_item p {
+	margin: 0;
+	padding: 0;
+	margin-top: 5px;
+	margin-bottom: 6px;
+	color: #303F9F;
+}
+
+.input_nome {
+	flex: 1;
+}
+
+.input_data_nasc {
+	width: 190px; 
+	margin-left: 15px;
+}
+
+#data_nasc {
+	padding: 8px;
+}
+
+.input_cpf,
+.input_cep,
+.input_numero,
+.input_bairro,
+.input_celular,
+.input_telefone,
+.input_senha {
+	width: 210px;
+}
+
+.input_complemento,
+.input_cidade,
+.input_estado {
+	flex: 1; 
+	margin-left: 15px;
+}
+
+.cadastro_row {
+	display: flex;
+	align-items: center;
+}
+
+.buscar_cep {
+	margin-left: 15px;
+}
+
+.buscar_cep a {
+	color: #303F9F;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.buscar_cep a:hover {
+	text-decoration: underline;
+}
+
+.termos_servico {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.termos_servico_box {
+	display: flex;
+	align-items: center;
+}
+
+.termos_servico input {
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+}
+
+.termos_servico p {
+	margin: 0;
+	padding: 0;
+	margin-top: 2px;
+	margin-left: 5px;
+	font-size: 15px;
+}
+
+.termos_servico a {
+	color: #303F9F;
+	font-size: 15px;
+}
+
+.btn_prox_cadastrar {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 20px;
+}
+
+.forma_pagamento {
+	display: none;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 20px;
+	padding: 15px 20px 30px 20px;
+	border-radius: 4px;
+	border: 1px solid #ced4da;
+	box-shadow: 0px 2px 10px #ced4da;
+
+	margin-bottom: 204px;
+}
+
+.forma_pagamento  h1 {
+	margin: 0;
+	padding: 0;
+	margin-top: 10px;
+	margin-bottom: 12px;
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    font-weight: 700;
+}
+
+.box_forma_pagamento {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	padding: 25px;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.box_forma_pagamento p {
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	color: #999;	
+}
+
+.btn_forma_pagamento {
+	display: flex;
+	align-items: center;
+	width: 226px;
+	height: 80px;
+	border: 1px solid #d4d4d4;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: all 0.2s linear;
+}
+
+.btn_forma_pagamento:hover {
+	background-color: #dde0f7;
+	border: 1px solid #303F9F;
+}
+
+.box_forma_pagamento_check {
+	background-color: #dde0f7;
+	border: 1px solid #303F9F;
+}
+
+.btn_forma_pagamento .check {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #fff;
+	width: 20px;
+	height: 20px;
+	margin-left: 16px;
+	border: 2px solid #d4d0d0;
+	border-radius: 20px;
+}
+
+.border_red {
+	border: 1px solid #ff0000;
+}
+
+#btn_boleto img {
+	width: 135px;
+	margin-left: 15px;
+}
+
+#btn_cartao img {
+	width: 158px;
+	margin-left: 12px;
+}
+
+.check_checked {
+	display: none;
+	background-color: #303F9F;
+	padding: 6px;
+	border-radius: 6px;
+}
+
+.check_checked_viability{
+	display: flex;
+}
+
+.btn_prox_forma_pag {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	padding-top: 20px;
+	padding-left: 25px;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.finalizar_compra {
+	display: none;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 20px;
+	padding: 15px 20px 30px 20px;
+	border-radius: 4px;
+	border: 1px solid #ced4da;
+	box-shadow: 0px 2px 10px #ced4da;
+
+	margin-bottom: 301px;
+}
+
+.finalizar_compra h1{
+	margin: 0;
+	padding: 0;
+	margin-top: 10px;
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    font-weight: 700;
+}
+
+.finalizar_compra p {
+	margin: 0;
+	padding: 0;
+	padding-top: 8px;
+	padding-bottom: 22px;
+	text-align: center;
+	color: #333;
+}
+
+.caixa-capche {
+	margin-top: 10px;
+}
+
+.btn_finalizar_compra {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	padding-left: 25px;
+	padding-top: 20px;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.btn_prox_forma_pag .btn_registrar_voltar{
+	margin-right: 105px;
+}
+
+.btn_finalizar_compra .btn_registrar_voltar{
+	margin-right: 78px;
+}
+
+.resumo_compra_body {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	height: 490px;
+	position: sticky;
+	top: 0;
+	right: 0;
+	padding-left: 40px;
+}
+
+.resumo_compra {
+	display: flex;
+	flex-direction: column;
+	background-color: #f5f5f5;
+	border: 1px solid #d4d4d4;
+	border-radius: 4px;
+	margin-top: 3px;
+	padding: 20px 32px 25px 32px;
+}
+
+.resumo_compra .title {
+	padding-bottom: 17px;
+	border-bottom: 1px solid #d4d4d4;
+	text-align: center;
+}
+
+.resumo_compra .title h1{
+	margin: 0;
+	padding: 0;
+	color: #333;
+	font-size: 22px;
+}
+
+.resumo_compra .select_plano {
+	display: flex;
+	justify-content: center;
+	padding: 8px 0;
+}
+
+.resumo_compra .select_plano select {
+	font-size: 19px;
+	color: #333; 
+	font-weight: bold;
+	border: 0px;
+	cursor: pointer;
+	outline: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background: #f5f5f5 url('../images/resumo_compra_seta.png') 98.5% 45% no-repeat;
+	padding-right: 18px;
+	margin-left: 14px;
+}
+
+.resumo_compra .select_veiculos {
+	display: none;
+	justify-content: center;
+	margin-top: 9px;
+}
+
+.resumo_compra .select_veiculos select {
+	font-size: 16px;
+	color: #333; 
+	font-weight: bold;
+	border: 0px;
+	cursor: pointer;
+	outline: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background: #f5f5f5 url('../images/resumo_compra_seta.png') 94.5% 45% no-repeat;
+	height: 37px;
+	padding-right: 22px;
+	padding-left: 12px;
+	border-radius: 3px;
+	box-shadow: 1px 2px 5px #555;
+}
+
+.resumo_compra .box_lista {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 10px;
+} 
+
+.resumo_compra .box_lista .qtd_veiculo {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.box_lista .qtd_veiculo h3 {
+	margin: 0;
+	padding: 0;
+	margin-top: 16px;
+	margin-right: 4px;
+	font-size: 16px;
+	color: #333;
+}
+
+.box_lista .alt_qtd_veiculo {
+	display: flex;
+	margin-top: 12px;
+}
+
+.box_lista .alt_qtd_veiculo .btn_qtd {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #fff;
+	width: 22px;
+	height: 22px;
+	margin-left: 8px;
+	border: 1px solid #999;
+	border-radius: 22px;
+	cursor: pointer;
+	transition: all 0.2s linear;
+}
+
+.box_lista .alt_qtd_veiculo .btn_qtd:active {
+	background-color: #ccc;
+}
+
+.btn_qtd .barra_vertical,
+.btn_qtd .barra_horizontal,
+.btn_qtd .barra_horizontal_menor {
+	background-color: #303F9F;
+	width: 14px;
+ 	height: 3px;
+ 	transition: all 0.2s linear;
+}
+
+.btn_qtd .barra_vertical {
+	position: absolute;
+ 	transform: translate(0,0px) rotate(90deg);
+}
+
+.btn_qtd:hover .barra_horizontal,
+.btn_qtd:hover .barra_vertical {
+	background-color: #2cb109;
+}
+
+.btn_qtd:hover .barra_horizontal_menor {
+	background-color: #ff0000;
+}
+
+.resumo_compra .valor_unitario {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 28px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #d4d4d4;
+}
+
+.resumo_compra .desconto {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 10px;
+}
+
+.resumo_compra .txt_resumo_compra h3{
+	margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-weight: 400;
+    color: #333;
+}
+
+.resumo_compra .valor_total {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	margin-top: 14px;
+}
+
+.resumo_compra .txt_valor_total h3 {
+	margin: 0;
+    padding: 0;
+    font-size: 21px;
+    font-weight: 600;
+    color: #303F9F;
+}
+
+.resumo_compra .img {
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+}
+
+.display_flex {
+	display: flex;
+}
+
+.display_none {
+	display: none;
+}
+
+.display_flex_important {
+	display: flex !important;
+}
+
+@media only screen and (max-width: 800px){
+
+	.container_registro {
+		flex-direction: column;
+	}
+
+	.resumo_compra {
+		flex: none;
+		order: 0;
+	}
+
+	.registro {
+		flex: none;
+		order: 1;
+	}
+
+	.cadastro_row {
+		flex-direction: column;
+	}
+
+	.input_data_nasc,
+	.input_cpf,
+	.input_cep,
+	.input_numero,
+	.input_bairro,
+	.input_complemento,
+	.input_cidade,
+	.input_estado,
+	.input_celular,
+	.input_telefone,
+	.input_senha {
+		width: 100%;
+		margin-left: 0px;
+	}
+
+	.resumo_compra_body {
+		position: unset;
+		padding-left: 0;
+	}
+
+}

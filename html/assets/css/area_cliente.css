@@ -1,0 +1,261 @@
+.ac_banner {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url('../images/teste.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 220px;
+}
+
+.ac_banner_title {
+
+}
+
+.ac_banner_title h1 {
+	color: #fff;
+	font-size: 33px;
+	font-weight: normal;
+	text-shadow: 1px 2px 2px #000;
+	margin: 0;
+	margin-bottom: 7px;
+}
+
+.ac_banner_title p {
+	color: #fff;
+	font-size: 22px;
+	text-shadow: 1px 2px 2px #000;
+	margin: 0;
+}
+
+.ac_menu_topo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #FEF011;
+	height: 53px;
+}
+
+.ac_menu_topo ul,
+.ac_menu_topo li {
+	display: flex;
+	list-style: none;
+	padding: 0;
+}
+
+.ac_menu_topo li a {
+	display: flex;
+	align-items: center;
+	height: 53px;
+	color: #303F9F;
+	font-size: 17px;
+	text-decoration: none;
+	padding-left: 16px;
+	padding-right: 16px;
+	transition: all 0.2s linear;
+}
+
+.ac_menu_topo li a:hover {
+	background-color: #303F9F;
+	color: #fff;
+}
+
+#ac_menu_check {
+	background-color: #303F9F;
+	color: #fff;
+	pointer-events: none;
+	cursor: default;
+}
+
+.ac_info_content {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	padding-top: 35px;
+}
+
+.ac_main_content {
+	flex: 3;
+	display: flex;
+	flex-direction: column;
+	padding-top: 35px;
+	padding-left: 35px;
+}
+
+.ac_info_box {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 25px;
+	border: solid 1px #ddd;
+	border-radius: 4px;
+	box-shadow: 1px 1px 4px #ddd;
+}
+
+.icone_car_blue {
+	background-image: url('../images/icone_car_blue.png');
+}
+
+.icone_credit_card_blue {
+	background-image: url('../images/icone_credit_card_blue.png');
+}
+
+.icone_user_blue {
+	background-image: url('../images/icone_user_blue.png');
+}
+
+.ac_info_box .title {
+	display: flex;
+	background-color: #FEF011;
+	background-repeat: no-repeat;
+	background-position: 5% 50%;
+	background-size: 25px;
+	padding: 10px;
+	border-bottom: solid 1px #ddd;
+	border-radius: 4px 4px 0px 0px;
+}
+
+.ac_info_box .title h1 {
+	color: #303F9F;
+	font-size: 18px;
+	margin: 0;
+	margin-left: 35px;
+}
+
+.ac_info_box .item {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding:  10px 15px 10px 15px;
+	border-bottom: solid 1px #ddd;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.ac_info_box .item:hover {
+	background-color: #f1f1f1;
+}
+
+.ac_info_box .item_check {
+	background-color: #f1f1f1;
+	pointer-events: none;
+	cursor: default;
+}
+
+.ac_info_box .item span {
+	color: #303F9F;
+	font-size: 15px;
+}
+
+.ac_info_box .badge {
+	background-color: #303F9F;
+	width: 38px;
+	padding: 3px 0;
+	border-radius: 15px;
+	text-align: center;
+	color: #fff !important;
+	font-weight: bold;
+}
+
+.ac_main_box {
+	display: flex;
+	flex-direction: column;
+}
+
+.ac_main_box .title {
+	margin-bottom: 12px;
+}
+
+.ac_main_box .title h1 {
+	color: #303F9F;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.ac_painel_title {
+	margin-top: 30px;
+}
+
+.ac_painel_title h1 {
+	color: #303F9F;
+	font-size: 25px;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+.ac_painel {
+	display: flex;
+	margin-top: 8px;
+	margin-bottom: 256px;
+	box-shadow: 2px 2px 6px #999;
+}
+
+.ac_painel a {
+	flex: 1;
+	text-decoration: none;
+}
+
+.ac_painel_item {
+	background-color: #f8f8f8;
+	background-repeat: no-repeat;
+	background-position: 88% 20%;
+	background-size: 48px;
+	padding: 20px 25px;
+	border-right: 1px solid #ccc;
+	cursor: pointer;
+	text-decoration: none;	
+}
+
+.ac_painel_item:hover {
+	background-color: #eee;
+}
+
+.ac_painel_item .number {
+	margin-top: 26px;
+	color: #777575;
+    font-size: 40px;
+    line-height: 1;
+}
+
+.ac_painel_item .title {
+	font-size: 15px;
+	color: #888;
+	font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.ac_painel_item .highlight {
+	height: 2px;
+    border-radius: 2px;
+}
+
+.icone_cube {
+	background-image: url('../images/icone_cube.png');
+}
+
+.icone_car {
+	background-image: url('../images/icone_car.png');
+}
+
+.icone_credit_card {
+	background-image: url('../images/icone_credit_card.png');
+}
+
+.bg-color-blue {
+	background-color: #5bc0de;
+}
+
+.bg-color-green {
+	background-color: #5cb85c;
+}
+
+.bg-color-red {
+	background-color: #d9534f;
+}
+
+.bg-color-gold {
+	background-color: #f0ad4e;
+}
