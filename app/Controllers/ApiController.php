@@ -1178,13 +1178,6 @@ class ApiController extends Controller {
 
 		})->add($checkPhone);
 
-		$app->GET('/api/plataforma/', function(Request $request, Response $response, array $args){
-
-			//$valor = shell_exec("sudo service traccar restart");
-
-	      	//echo "A-".$valor;
-		});
-
 		$app->run();
 	}
 }
